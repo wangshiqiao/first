@@ -1,0 +1,491 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+ .clearfix:after {  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }   
+
+ .clearfix {*zoom: 1;}   /* IE6、7 专有 */
+ .jdColor {
+ 	color: #f10215 !important;
+ }
+i {
+	font-style: normal;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	margin: 0 ;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?2oritu');
+  src:  url('../fonts/icomoon.eot?2oritu#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?2oritu') format('truetype'),
+    url('../fonts/icomoon.woff?2oritu') format('woff'),
+    url('../fonts/icomoon.svg?2oritu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+	background-color: #f0f3ef;
+}
+/*顶部广告开始*/
+.j_event {
+	background-color: #fff;
+}
+.j_event_lk {
+	width: 100%;
+	height: 80px;
+	background: url(../images/j_event_lk.jpg) no-repeat;
+	display: block;
+}
+.j_event_body {
+	position: relative;
+
+}
+.j_event_body i {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #b99d89;
+	color: #f4d8c4;
+	width: 20px;
+	height: 20px;
+	font-family: "icomoon";
+	cursor: pointer;
+
+}
+/*顶部广告结束*/
+/*导航开始*/
+.nav {
+	background-color: #e3e4e5;
+	border-bottom: 1px solid #dddddd;
+}
+.nav .fl>li {
+	height: 30px;
+	line-height: 30px;
+	/*background-color: pink;*/
+	font-size: 12px;
+	padding-left: 207px;
+}
+.nav .fl i {
+	font-family: "icomoon";
+	color: #f10215;
+}
+.nva-right {
+	height: 30px;
+}
+.nav .fr>li {
+	float: left;
+	font-size: 12px;	
+	line-height: 30px;
+	color: #999999;
+}
+.nav a {
+	color: #999999;
+}
+.nav a:hover {
+	color: #e33333 !important;
+}
+.spacer {
+	width: 1px;
+	height: 10px;
+	display: block;
+	background-color: #ccc;
+	margin: 11px 5px 9px;
+}
+.link-login {
+	/*color: #999999;*/
+}
+.link-login:hover {
+	color: #f10215;
+}
+.nav .link-regist {
+	color: #f10215 ;
+	padding-right: 7px;
+}
+.nav .fr .dt {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.down-list {
+	position: relative;
+	padding-right: 20px !important;
+}
+.down-list:after {
+	content: "\ea50";
+	font-family: "icomoon";
+	font-size: 16px;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+}
+.hand-hover:hover {
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+.j_mobile {
+	position: relative;
+}
+.mobile-qrcode {
+	height: 66px;
+	width: 66px;
+	border: 1px solid #cfcfcf;
+	position: absolute;
+	background: url(../images/mobile_qrcode.png) no-repeat center;
+	top: 31px;
+	left: 50%;
+	margin-left: -37px;
+	z-index: 10;
+}
+/*导航结束*/
+/*head开始*/
+.head {
+	
+	
+	border-top: 1px solid #ddd;
+}
+.inner {
+	height: 139px;
+	
+	position: relative;
+}
+/*.head .w {
+	background-color: purple;
+	height: 300px;
+}*/
+.logo {
+	/*width: 190px;
+	height: 170px;*/
+	/*background-color: purple;*/
+	
+	position: absolute;
+	
+}
+.logo h1 {
+	text-indent: -9999px;
+}
+.logo h1 a {
+	display: block;
+	width: 190px;
+	height: 170px;
+	margin-top: -31px;
+	background: url(../images/sprite.head.png) top left no-repeat;
+}
+/*查询*/
+.seach {
+	width: 550px;
+	height: 35px;
+		
+	left: 320px;
+	top: 25px;
+	position: absolute;
+}
+.seach input {
+	padding: 0px;
+	width: 500px;
+	height: 35px;
+	outline: none;
+	border: 0px;
+	float: left;
+}
+.seach button {
+	background-color: #f10215;
+	width: 50px;
+	height: 35px;
+	padding: 0px;
+	border: 0;
+	float: left;
+}
+.camera {
+	font-family: "icomoon";
+	font-size: 18px;
+	position: absolute;
+	right: 65px;	
+	top: 50%;
+	margin-top: -9px;
+	width: 19px;
+	height: 15px;
+	display: block;
+	color: #919191;
+	cursor: pointer;
+
+	/*background-color: #fff;*/
+}
+.camera:hover {
+	color: red;
+}
+.seachFont {
+	font-family: "icomoon";
+	font-size: 18px;
+	position: absolute;
+	top: 9px;
+	right: 15px;
+	width: 20px;	
+	height: 20px;
+	color: #fff;
+
+}
+.car {
+	width: 188px;
+	height: 33px;
+	background-color: #fff;
+	border: 1px solid #e3e4e5;
+	position: absolute;
+	top: 25px;
+	right: 99px;	
+	line-height: 33px;
+	color: #f10214;
+}
+.car i {
+	font-family: "icomoon";
+	font-size: 16px;
+	margin-left: 52px;
+	margin-right: 3px;
+	
+
+}
+.car span {
+	font-size: 12px;	
+}
+.car em {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top: 5px;
+	left: 140px;
+	background-color: #f10214;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+	font-style: normal;
+	border-radius: 7px;
+}
+.hotWords {
+	width: 550px;
+	/*height: 23px;*/
+	
+	position: absolute;
+	top: 60px;
+	left: 320px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.hotWords a {
+	margin-bottom: 0px;
+	color: #999999;
+	margin-right: 6px;
+}
+.hotWords .jdColor {
+	margin-right: 16px;
+}
+.head_nav {
+	width: 790px;
+	height: 26px;
+
+	top: 113px;
+	left: 198px;
+	position: absolute;
+	font-size: 14px;
+
+}
+.head_nav ul {
+	float: left;
+
+}
+.head_nav li {
+	float: left;
+	margin-left: 30px;
+	
+}
+.head_nav a {
+	color: #333333;
+}
+.head_nav a:hover {
+	color: #f10215;
+}
+.head_nav span {
+	float: left;
+	margin-left: 20px;
+	margin-right: -10px;
+	color: #cccccc;
+}
+.head_CX {
+	width: 190px;
+	height: 38px;
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+
+}
+/*head结束*/
+/*bottom开始*/
+.bottom-t1 {
+	border-bottom: 1px solid #dedede;
+}
+
+.bottom-one li {
+	float: left;
+	margin: 20px 90px 20px 0px;
+}
+.bottom-one li:first-child {
+	margin-left: 35px;
+}
+.bottom-one li:last-child {
+	margin-right: 0px;
+}
+
+.bottom-inner h5 {
+	background: url(../images/sprite.footer.png) no-repeat bottom left;
+	width: 37px;
+	height: 42px;
+	display: block;
+	float: left;
+}
+.bottom-one .sec h5 {
+	background: url(../images/sprite.footer.png) no-repeat -41px bottom;
+}
+.bottom-one .third h5 {
+	background: url(../images/sprite.footer.png) no-repeat -82px bottom;
+}
+.bottom-one .fouth h5 {
+	background: url(../images/sprite.footer.png) no-repeat -123px bottom;
+}
+.bottom-inner p {
+	height: 42px;
+	display: block;
+	line-height: 42px;
+	float: left;
+	margin-left: 9px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.bottom-t2 {
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+	/*background-color: pink;*/
+}
+.bottom-t2 dl {
+	color: #727272;	
+	float: left;
+	margin-right: 141px;
+}
+.bottom-t2 dl:last-child {
+	float: right;
+	width: 196px;
+	height: 145px;
+	margin-right: 0px;
+	background: url(../images/sprite.footer.png) left top no-repeat;
+	overflow: hidden;
+}
+.bottom-t2 dl:last-child dt {
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	text-align: center;
+}
+.bottom-t2 a {
+	color: #666666;
+}
+.bottom-t2 a:hover {
+	color: #f10215;
+}
+.bottom-t2 .info {
+	height: 54px;
+	padding: 0 16px 0 8px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.bottom-t2 .more {
+	text-align: right;
+}
+.bottom-t2 dt {
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 22px;
+	margin-bottom: 16px;
+}
+.bottom-t2 dd {
+	font-size: 12px;
+	font-weight: 400;
+	height: 22px;
+	line-height: 22px;
+}
+.bottom-t3 {
+	padding-top: 19px;
+	padding-bottom: 17px;
+	width: 1110px;
+	margin: 0 auto;
+}
+.bottom-t3 li {
+	float: left;
+	font-size: 12px;
+	height: 13px;
+	
+}
+.bottom-t3 li a{
+	color: #666666;
+}
+.bottom-t3 li a:hover{
+	color: #f10215;
+}
+.bottom-t3 li:nth-child(even) {
+	margin-left: 11px;
+	margin-right: 11px;
+	color: #ccd3dc;
+}
+.bottom-t4 p{
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+	height: 22px;
+	line-height: 22px;
+}
+.bottom-t5 {
+	text-align: center;
+}
+.bottom-t5 a {
+	width: 103px;
+	height: 32px;
+	/*background-color: pink;*/
+	display: inline-block;
+		
+}
+.bottom-t5 a:nth-child(1) {
+	background: url(../images/sprite.footer.png) no-repeat top right;
+}
+.bottom-t5 a:nth-child(2) {
+	background: url(../images/sprite.footer.png) no-repeat right  -37px;
+}
+.bottom-t5 a:nth-child(3) {
+	background: url(../images/sprite.footer.png) no-repeat right -74px;
+}
+.bottom-t5 a:nth-child(4) {
+	background: url(../images/sprite.footer.png) no-repeat right -111px;
+}
+.bottom-t5 a:nth-child(5) {
+	background: url(../images/sprite.footer.png) no-repeat right -148px;
+}
+/*bottom结束*/

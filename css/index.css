@@ -1,0 +1,250 @@
+.jd-content {
+	height: 480px;
+	position: relative;
+}
+.jd-inner {
+	height: 480px;
+	position: absolute;	
+	left: 50%;
+	top: 0px;
+	margin-left: -595px;
+	overflow: hidden;
+	z-index: 2;
+}
+.jd_ad {
+	background: url(../images/bg.png) no-repeat center;
+	overflow: hidden;
+	height: 480px;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+.jd-contentleft {
+	width: 190px;
+	height: 466px;
+	float: left;
+	background-color: #fefefe;
+	/*padding-left: 18px;*/
+	padding-top: 13px;
+	margin-top: 1px;
+	
+}
+.jd-contentleft a {
+	color: #626262;
+}
+.jd-contentleft a:hover {
+	color: #f10215;
+}
+.jd-contentleft li {
+	height: 26px;
+	padding-left: 18px;
+	line-height: 26px;
+	font-size: 14px;
+}
+.jd-contentleft li:hover {
+	background-color: #d9d9d9;
+}
+.jd-contentm1 {
+	height: 470px;
+	width: 590px;
+	float: left;
+	margin: 10px 10px 0px 10px;
+	/*background-color: pink;*/
+	overflow: hidden;
+	position: relative;
+}	
+.lb_lf ,.lb_right {
+	width: 24px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	background-color: rgba(204,204,204,.4);
+	font-family: "icomoon";
+	font-size: 26px;
+	color: #fff;
+}
+.lb_lf i {
+	display: inline-block;
+	margin-top:5px ;
+}
+.lb_right {
+	right: 0 ;
+}
+.lb_right i {
+	display: inline-block;
+	margin-top:5px ;
+}
+.lb_bottom {
+	position: absolute;
+	width: 152px;
+	height: 18px;
+	left: 36px;
+	bottom: 10px;
+	/*background-color: pink;*/
+
+}
+.lb_bottom a{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+}
+.lb_bottom i {
+	display: block;
+	width: 6px;
+	height: 6px;
+	border: 2px solid rgba(255,255,255,0.4);
+	border-radius: 50%;
+	margin: 4px auto;
+}
+.lb_bottom a:hover,.lb_bottom a:first-child{
+	width: 10px;
+	height: 10px;
+	border: 4px solid rgba(255,255,255,0.4);
+	border-radius: 50%;
+	display: block;
+	float: left;
+}
+.lb_bottom a:hover i,.lb_bottom a:first-child i {
+	background-color: #fff;
+	margin: 0;	
+}
+.jd-contentm2 {
+	float: left;
+	
+	margin-right: 10px;
+	width: 190px;
+}
+.jd-contentm2 a {
+	width: 190px;
+	height: 150px;
+	/*background-color: pink;*/
+	float: left;
+	margin-top: 10px;
+	display: block;
+	
+}
+.jd-contentm2 a:hover {
+	opacity: 0.4;
+}
+.jd-contentright {
+	height: 470px;
+	width: 190px;
+	margin-top: 10px;
+	float: right;
+	background-color: #ffffff;
+}
+.jd-contentright .items1-div {
+	margin-top: -10px;
+}
+.jd-contentright .items1-div a {
+	width: 55px;
+	height: 55px;
+	margin:0 auto;
+	box-shadow: 3px 5px 25px #c3c3c3;
+	display: block;
+}
+.jd-contentright .items1-div img {
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;
+}
+.jd-contentright p{
+	height: 20px;
+	line-height: 20px;
+	color: #989898;
+	font-size: 12px;
+	text-align: center;
+}
+.jd-contentright a {
+	color: #989898;
+}
+.jd-contentright a:hover {
+	color: #f10215;
+}
+.items2 {
+	margin-top: 10px;
+}
+.items2 a {
+	width: 70px;
+	height: 25px;
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+.items2 .user-plus {
+	margin-left: 10px;
+	background-color: #363634;
+	color: #e5d790;
+}
+.items2 .user-new:hover {
+	background-color: red;
+	color: #fff;
+}
+.items2 .user-plus:hover {
+	background-color: red;
+	color: #fff;
+}
+.items3-tab {
+	position: relative;
+}
+.items3-tab a {
+	width: 54px;
+	height: 21px;
+	display: inline-block;
+	text-align: center;
+	line-height: 21px;
+	font-size: 12px;
+	color: #333333;
+}
+.items3-tab a:hover {
+	color: #333333;
+}
+.items3-tab .tab1 {
+	border-right: 1px solid #dfe0e1;
+}
+.items3-tab .items3-tabborder {
+	height: 2px;
+	width: 27px;
+	background-color: red;
+	position: absolute;
+	left: 13px;
+	bottom: 0px;
+}
+.tab1-news ul {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.tab1-news li {
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #666666;
+}
+.tab1-news a {
+	color: #666666;
+}
+.item4 ul {
+	padding-left: 8px;
+}
+.item4 li {
+	width: 43px;
+	height: 55px;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+}
+.item4 i {
+	width: 16px;
+	height: 18px;
+	display: block;
+	font-family: "icomoon";
+	margin: 0 auto;
+	padding-top: 10px;
+}
